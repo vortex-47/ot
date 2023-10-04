@@ -69,7 +69,7 @@ Window {
             anchors.fill: parent
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
-            text: model.id
+            text: styleData.value
         }
     }
 
@@ -79,7 +79,7 @@ Window {
             anchors.fill: parent
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
-            text: model.name
+            text: styleData.value
             onEditingFinished: model.name = text
         }
     }
@@ -99,7 +99,7 @@ Window {
             anchors.fill: parent
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
-            text: model.header
+            text: styleData.value
             onEditingFinished: model.header = text
         }
     }
