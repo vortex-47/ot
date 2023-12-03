@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.exlearn.cook_book
+Exec=/usr/bin/ru.exlearn.cook_book
+Name=Cook book
+Name[ru]=Кулинарная книга
+
+[X-Application]
+Permissions=UserDirs
+OrganizationName=ru.exlearn
+ApplicationName=cook_book
+ExecDBus=/usr/bin/ru.exlearn.cook_book
